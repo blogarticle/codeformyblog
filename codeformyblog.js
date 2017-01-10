@@ -9,6 +9,6 @@ function getSourceLinkLeader() {
 function displayMemberCJContent() {
   var script = document.createElement("script");
   script.language="javascript";
-  script.src = "http://www.abcdef.com/placeholder-ABCDEF?target=_top&mouseover=N";
+  script.src = getSourceLinkLeader();
   document.write(script.outerHTML);
 }
