@@ -13,11 +13,11 @@ function displayMemberCJContent() {
   document.write(script.outerHTML);
 }
 
-function displayAmazonContent(adSize) {
+function displayAmazonContent() {
   var iFrame = document.createElement("iframe");
-	iFrame.setAttribute("src",getAmazonSrcLinkLeader());
-	iFrame.setAttribute("width","728");
-	iFrame.setAttribute("height","90");
+  iFrame.setAttribute("src",getAmazonSrcLinkLeader());
+  iFrame.setAttribute("width","728");
+  iFrame.setAttribute("height","90");
   iFrame.setAttribute("scrolling","no");
   iFrame.setAttribute("border","0");
   iFrame.setAttribute("marginwidth","0");
